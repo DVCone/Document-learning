@@ -1,0 +1,212 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	background-image: url(http://news.psu.edu/sites/default/files/styles/threshold-992/public/lodging%20iStock%20IPGGutenbergUKLtd.jpg?itok=CEkbUyNl);
+	background-repeat: no-repeat;
+	background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+	filter: brightness(10);
+	width: 84px;
+	height: 81px;
+	position: relative;
+	top: 21%;
+
+}
+p {
+	color: white;
+	font-size: 10px;
+	position: relative;
+	top: 22%;
+
+}
+button{
+	border-radius: 2px 2px 2px 2px;
+    background-color:#5c64b8;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 104px 2px;
+    cursor: pointer;
+    width: 200px;
+    height: 43px;
+
+}
+nav {
+    color: #D3D3D3;
+    height: 50px;
+    position: relative;
+    top: 6%;
+
+}
+ ul {
+    list-style-type: none;
+    
+
+}
+li {
+	border-bottom: 1px solid #d8d4d4;
+	/*margin-right: 30px;*/
+	/*margin-left: 30px;*/
+    display: inline;
+    font-size: 13px;
+    text-decoration: none;
+
+
+}li a {
+
+    margin: 5px;
+    display: inline;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+li a:hover{
+	width: 2px;
+    border-bottom: 2px solid #fc634b;
+
+}
+input[type="checkbox"] {
+    height: 40px;
+    width: 35px;
+    float: left;
+	margin-left: 20px;
+}
+
+/*ID*/
+#home{
+	display: block;
+	background-color: white;
+	padding: 5px;
+	margin: 0px;
+	width: 365px;
+	height: 320px;
+	position: absolute;
+	top: 8%;
+	left: 0%;
+	text-align: center;
+
+}
+#button{
+	border-radius: 2px 2px 2px 2px;
+    background-color:#fc634b;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 13px 7px;
+    cursor: pointer;
+    width: 302px;
+    height: 43px;
+	position: absolute;
+	top: 205px;
+	left: 30px;	
+}
+
+/*CLASS*/
+.sidebar {	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	background-color: #fc634b;
+	padding: 13px;
+	margin: 7px;
+	width: 206px;
+	height: 386px;
+	position: absolute;
+	top: 20%;
+	left: 29%;
+	text-align: left;
+
+}
+
+.bgside {
+	background-image: url(http://news.psu.edu/sites/default/files/styles/threshold-992/public/lodging%20iStock%20IPGGutenbergUKLtd.jpg?itok=CEkbUyNl);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	opacity: 0.1;
+	padding: 13px;
+	margin: 7px;
+	width: 206px;
+	height: 388px;
+	position: absolute;
+	top: -2%;
+	left: -3%;
+	text-align: left;
+
+}
+.isiside {
+	padding: 13px;
+	margin: 7px;
+	width: 206px;
+	height: 386px;
+	position: absolute;
+	top: 4%;
+	left: -3%;
+	text-align: left;
+
+}
+.home {
+	display: block;
+	background-color: white;
+	padding: 5px;
+	margin: 7px;
+	width: 365px;
+	height: 402px;
+	position: absolute;
+	top: 20%;
+	left: 46%;
+	text-align: center;
+
+}
+.form {
+	font-size: 12px;
+    margin:12px;
+    box-sizing: border-box;
+    border: 2px solid #d8d4d4;
+    padding: 11px;
+    width: 306px;
+
+}
+
+.dashbar {
+	display: inline;
+	/*padding: 4px;*/
+	/*margin-right: 24px;*/
+
+}
+.material-icons {
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+.kanan {
+	text-decoration: none;
+	color: grey;
+	width: 40%;
+	height: 20px;
+	float: left;
+	font-size: 9px;
+	margin-left: -18px;
+}
+.kiri {
+	width: 40%;
+	height: 20px;
+	float: right;
+	font-size:9px;
+	margin-right: 26px;
+}
+.kiri a {
+	text-decoration: none;
+	color: grey;
+}

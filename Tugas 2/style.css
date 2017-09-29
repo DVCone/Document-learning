@@ -1,0 +1,138 @@
+ 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    height: 50px;
+    background-color: white;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D3D3D3;
+}
+h1  {
+    color: #D3D3D3;
+    padding: 5px;
+    float: left;
+    padding-right: 30px;
+}
+h2 {
+    font-size: 25px;
+    color: #3939ff;
+}
+nav {
+    color: #D3D3D3;
+    height: 50px;
+    padding-top: 15px;
+}
+nav ul {
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+nav li {
+    display: inline;
+    font-size: 23px;
+    text-decoration: none;
+}
+li a {
+    margin: 20px;
+    display: inline;
+    color: #D3D3D3;
+    text-decoration: none;
+    list-style-type: none;
+}
+li a:hover{
+    border-bottom: 3px solid #3939ff;
+}
+.active {
+    float: right;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 19px;
+}
+ .bar {
+    margin: 21px;    
+    padding: 15px;    
+    width: 291px;
+    float: left;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    height: 629px;
+} .bar ul{
+    list-style-type: none;
+ }
+ .bar li a {
+    display: block;
+    padding: 0px -1px;
+    text-decoration: none;
+}
+.bar li a:hover {
+    display: list-item;
+    margin: 20px;
+    color: #D3D3D3;
+
+}
+
+.hello {
+    margin: 23px;
+    padding: 53px 48px;
+    width: 815px;
+    height: 220px;
+    float: left;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: 16px;
+}
+.hello a{
+    background-color:#427fed;
+    color:black;
+    padding: 21px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px;
+}
+.block {
+    margin: 22px;
+    padding: 35.6px;
+    width: 203px;
+    height: 220px;
+    float: left;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: 14px;
+}
+.block h1 {
+    border-bottom: 2px solid grey;
+    font-size: 44px;
+}
+.block p {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 12px;
+}
+
+footer {
+    margin: 30px;
+    padding: 7px;
+    clear: both;
+    border-top: 1px solid white;
+}
+footer p {
+        margin-bottom: 20px;
+
+}
+h3 {
+    font-size: 55px;
+}
+
+.bagian {
+    width: 991px;
+    float: right;
+}

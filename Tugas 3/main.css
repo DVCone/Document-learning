@@ -1,0 +1,96 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color:#2196f3;
+}
+img {
+	width: 105px;
+	height: 105px;
+	position: relative;
+	top: 4%;
+	border-radius: 100%;
+	padding-bottom: 14px;
+}
+p {
+	font-weight:lighter; 
+	font-size: 15px;
+}
+#satu {
+	position: absolute;
+	left: 17px;
+	top: 19px;
+}
+#dua {
+	position: absolute;
+	left: 17px;
+	top: 85px;
+}
+#tiga {
+	position: absolute;
+	left: 17px;
+	top: 146px;
+}#empat {
+	position: absolute;
+	left: 17px;
+	top: 211px;
+}
+.container {
+	box-shadow: 0 340px 90px 0 rgba(0, 0, 0, 0.2), 0 60px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	background-color: white;
+	padding: 5px;
+	margin: 7px;
+	width: 394px;
+	height: 180px;
+	position: absolute;
+	top: 5%;
+	left: 35%;
+	text-align: center;
+}
+.block {
+	/*box-shadow: 0 4px 8px grey;*/
+	display: block;
+	background-color: white;
+	padding: 5px;
+	margin: 7px;
+	width: 394px;
+	height: 387px;
+	position: absolute;
+	top: 29%;
+	left: 35%;
+	text-align: center;
+}
+.form {
+	font-size: 12px;
+    margin:19px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #d8d4d4;
+    padding-bottom: 11px;
+    width: 310px;
+}
+
+.button {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 2px 2px 2px 2px;
+    background-color:#26a69a;
+    border: none;
+    color: white;
+    padding: 6px 98px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+}
+.button :hover {
+	opacity: 
+}
+.link {
+	text-decoration: none;
+	color:#0ca5f7;
+}
