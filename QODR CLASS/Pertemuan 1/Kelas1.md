@@ -2,7 +2,7 @@ Pertemuan Sabtu 6-10-2018
 
 KESIMPULAN
 
-#Perancangan database dan halaman login
+###Perancangan database dan halaman login
 
 1. Membuat table database beserta view tablenya.
 = dalam pembuatan View table ada beberapa hal yang perlu diperhatikan yaitu:
