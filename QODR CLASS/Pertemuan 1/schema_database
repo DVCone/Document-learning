@@ -1,0 +1,84 @@
+:: DATABASE ::
+
+inv_qodr
+
+::: TABLE :::
+
+- inv_user
+- inv_barang
+- inv_tr_masuk
+- inv_tr_keluar
+- inv_log
+
+
+:::: DETAIL TABLE ::::
+
+inv_user
+- id (AI, int)
+- username (varchar 50)
+- password (varchar 50)
+- name (varchar 50)
+
+inv_barang
+- id (AI, int)
+- nama (varchar 50)
+- qty (int)
+
+inv_tr_masuk
+- id (AI, int)
+- id_barang (int)
+- id_user (int)
+- qty (int)
+- tanggal (datetime)
+- detail (varchar 50)
+
+inv_tr_keluar
+- id (AI, int)
+- id_barang (int)
+- id_user (int)
+- qty (int)
+- tanggal(datetime)
+- detail (varchar 50)
+
+inv_log
+- id (AI, int)
+- id_barang (int)
+- id_user (int)
+- qty (int)
+- tanggal (datetime)
+- keterangan (varchar 50)
+- detail (varchar 50)
+
+
+::: VIEW :::
+
+v_tr_masuk
+- id
+- id_barang
+- nama_barang
+- id_user
+- nama_user
+- qty
+- tanggal
+- detail
+
+v_tr_keluar
+- id
+- id_barang
+- nama_barang
+- id_user
+- nama_user
+- qty
+- tanggal
+- detail
+
+v_tr_log
+- id
+- id_barang
+- nama_barang
+- id_user
+- nama_user
+- qty
+- tanggal
+- keterangan
+- detail
