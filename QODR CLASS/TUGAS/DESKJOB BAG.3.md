@@ -25,6 +25,7 @@
 -------------------------------------------------------------------------
 
 ##Reset Log
+
 Pada table log merupakan table untuk mencatat dan memantau seluruh 
 aktivitas barang mulai dari masuk hingga keluarnya barang.
 oleh karenanya tidak dtambahkan fungsi creat dan edit, hanya fungsi 
@@ -94,12 +95,14 @@ karena kita akan mengkosongkan tablenya maka yang sebelumnya tidak boleh
 kosong (!empty) dirubah menjadi (empty).
 
 ##Log transaksi barang 
+
 Pada bagian ini telah saya jabarkan di DEKSJOB bagian ke II
 dapat dilihat kembali pada link berikut :
 [Bagian I](https://github.com/DVCone/Document-learning/blob/master/QODR%20CLASS/TUGAS/DESKJOB%20BAG.1.md)
 [Bagian II ](https://github.com/DVCone/Document-learning/blob/master/QODR%20CLASS/TUGAS/DESKJOB%20BAG.2.md)
 
 ##Multiple Select
+
 untuk insert maupun edit data pemasukan atau pengeluaran field nama barang
 saya masih menggunakan tag input type="number", ini akan dirubah dengan 
 Multiple select.
@@ -137,6 +140,7 @@ multiple selectnya masih gagal, data nama barang dari table
 inv_barang belum masuk kedalam option valuenya.
 
 ##log Activity User 
+
 saya membedakan table log untuk keluar masuk barang dan login logout user.
 jadi saya buat table baru untuk log user.
 
