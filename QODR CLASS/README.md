@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------
 
-                        #README INVENTORY QODR#
+                                                        #README INVENTORY QODR#
 
-                    Class   : Backend.
-                    Teacher : @AhmadShifa.
-                    QODR    : Magelang.
-                    target  : Buat Admin Control panel 
-                              untuk Inventaris.
+                                                    Class   : Backend.
+                                                    Teacher : @AhmadShifa.
+                                                    QODR    : Magelang.
+                                                    target  : Buat Admin Control panel 
+                                                              untuk Inventaris.
 
-                              Bagian  : I
+                                                              Bagian  : I
 
 -------------------------------------------------------------------------
 
